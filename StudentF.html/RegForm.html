@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic HTML Form</title>
+  </head>
+  <body>
+  <!-- Form action-->
+  <h1>STUDENT REGISTRATION FORM</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter full names"/>
+        <br>
+        <label for="birthdate">Select your birth_date:</label>
+        <input type="date" id="birthdate" name="birth_date">
+        <br>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for= "male">Male</label>
+            <br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </fieldset>
+        <br>
+        <br>
+         <!--Entering address and using fieldset to group data -->
+        <fieldset>
+            <legend>Address</legend>
+            <label for="City">City-Name:</label>
+            <input type="text" id="City" name="City" placeholder="Enter your City">
+            <br>
+            <br>
+            <label for="PO_Box"> P.O.Box:</label>
+            <input type="text" id="PO_Box" name="PO_Box" placeholder="Enter P.O.Box number">
+            <br>
+            <br>
+            <label for="County/Provinnce">County/Province_Name</label>
+            <input type="text"id=County/Province name="County/province" placeholder="Enter County or Province">
+            <br>
+            <br>
+            <label for="postal_code">Postal Code</label>
+            <input type="text" id="Postal_code" name="Postal_code" placeholder="Enter Postal Code">
+            <br>
+            <br>
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" placeholder="Enter your Country">
+            <br> 
+            <br>
+        </fieldset>
+            <br>
+            <br>
+            <!--Entering telephone number-->
+            <label for="telephone">Telephone:</label>
+            <input type="tel" id="telephone" name="telephone" placeholder="Enter telephone number" maxlength="17">
+            <br>
+            <br>
+             <!--Entering email address-->
+            <label for="email"> Email:</label>
+            <input type="text" id="email" name="email"  placeholder="Enter your email">
+            <br>
+            <br>
+            <label for="course"> Course:</label>
+            <input type="text" id="couse" name="course"  placeholder="Enter your course">
+            <br>
+            <br>
+            <!--Cancelling the data for correction or new entry in the form-->
+            <Button type="cancel">Cancel</Button>
+            <br>
+            <br>
+            <!--Submitting the Form using-->
+            <button type="Submit"> Submit</button>
+            <br>
+            <br>
+    </form>
+    </body>
+    </html>
+
+    
+    
